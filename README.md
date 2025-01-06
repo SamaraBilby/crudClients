@@ -29,8 +29,8 @@ O modelo abaixo pode ser utilizado como referência para realizar requisições 
 - **name**: Nome completo do cliente (string).
 - **cpf**: CPF do cliente, sem pontos ou traços (string).
 - **income**: Renda mensal do cliente (double).
-- **birthDate**: Data de nascimento no formato `YYYY-MM-DD` (string).
-- **children**: Quantidade de filhos (número inteiro).
+- **birthDate**: Data de nascimento no formato `YYYY-MM-DD` (LocalDate).
+- **children**: Quantidade de filhos (integer).
 
 
 ### Requisitos
